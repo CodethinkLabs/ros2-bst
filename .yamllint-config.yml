@@ -1,0 +1,11 @@
+extends: default
+yaml-files:
+  - "*.bst"
+  - project.conf
+rules:
+  line-length:
+    max: 200
+    level: error
+  document-start: disable
+  indentation:
+    indent-sequences: consistent

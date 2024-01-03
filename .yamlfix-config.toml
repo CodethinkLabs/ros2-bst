@@ -1,0 +1,12 @@
+explicit_start = false
+line_length = 100
+sequence_style = "block_style"
+indent_mapping = 2
+indent_sequence = 2
+indent_offset = 0
+# doesn't work, see https://github.com/lyz-code/yamlfix/issues/252
+quote_representation = '"'
+# yamlfix definition of section is stricter than ours,
+# so we ask it to keep whitelines that we add.
+section_whitelines = 1
+whitelines = 1

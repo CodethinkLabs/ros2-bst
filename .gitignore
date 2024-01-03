@@ -1,0 +1,9 @@
+*venv/
+lint_output
+*.tar.gz
+__pycache__
+.bst/
+.bst2/
+.netrc
+client_cert.pem
+client_key.pem
